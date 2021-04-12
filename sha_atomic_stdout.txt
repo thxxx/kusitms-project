@@ -2,8 +2,14 @@ gem5 Simulator System.  http://gem5.org
 gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 compiled Apr 12 2021 02:29:22
-gem5 started Apr 12 2021 02:58:16
+gem5 started Apr 12 2021 03:32:14
 gem5 executing on ip-172-31-5-144
-command line: ./build/ARM/gem5.opt -re -d ca_project2 --stdout-file=sha_atomic_stdout.txt --stderr-file=sha_atomic_stderr.txt --stats-file=sha_atomic_stats.txt configs/example/se.py -c ../mibench/security/sha --cpu-type=atomic -o ../tiki_taka/sha_50kbInput.asc
+command line: ./build/ARM/gem5.opt -re -d ca_project2 --stdout-file=sha_atomic_stdout.txt --stderr-file=sha_atomic_stderr.txt --stats-file=sha_atomic_stats.txt configs/example/se.py -c ../mibench/security/sha/sha --cpu-type=atomic -o ../tiki_taka/sha_50kbInput.asc
 
 Global frequency set at 1000000000000 ticks per second
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+3d9cb8ea caebd5e0 b8760d9a 6a4b5b6c 9d806168
+Exiting @ tick 883437500 because target called exit()

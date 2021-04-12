@@ -1,6 +1,2 @@
 warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
-fatal: Can't load object file ../mibench/security/sha
- @ tick 0
-[create:build/ARM/sim/process.cc, line 638]
-Memory Usage: 633492 KBytes
-Program aborted at cycle 0
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7000

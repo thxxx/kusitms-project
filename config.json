@@ -237,7 +237,7 @@
                         "pid": 100, 
                         "kvmInSE": false, 
                         "cxx_class": "LiveProcess", 
-                        "executable": "../mibench/security/sha", 
+                        "executable": "../mibench/security/sha/sha", 
                         "drivers": [], 
                         "system": "system", 
                         "gid": 100, 
@@ -253,7 +253,7 @@
                         "max_stack_size": 67108864, 
                         "name": "workload", 
                         "cmd": [
-                            "../mibench/security/sha", 
+                            "../mibench/security/sha/sha", 
                             "../tiki_taka/sha_50kbInput.asc"
                         ], 
                         "errout": "cerr", 
